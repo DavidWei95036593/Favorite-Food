@@ -4,14 +4,27 @@ body{
 }
 
 #firstfood{
+position:relative;
   background-image: url("img/chicken.jpg");
-
+}
+.pic{
+    position:relative;
     /* Set a specific height */
     height: 500px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#secondfood{
+  position: relative;
+  background-image: url("img/noodle.jpg")
+}
+h2{
+  color:white;
+  position:absolute;
+  top:250px;
+  text-align: center;
+  width:100%;
 }

@@ -28,7 +28,15 @@ position:relative;
   position:relative;
   background-image:url("img/ck.jpg");
 }
-
+#friedchicken{
+  color:gold;
+}
+#friednoodles{
+  color:yellow;
+}
+#chocolatebis{
+  color:chocolate;
+}
 h2{
   color:white;
   position:absolute;
@@ -38,6 +46,7 @@ h2{
 }
 
 .description{
+  font-size:20px;
   margin: 100px;
   background-color:white;
 }

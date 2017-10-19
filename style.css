@@ -3,10 +3,7 @@ body{
   padding:0;
 }
 
-#firstfood{
-position:relative;
-  background-image: url("img/chicken.jpg");
-}
+
 .pic{
     position:relative;
     /* Set a specific height */
@@ -21,10 +18,26 @@ position:relative;
   position: relative;
   background-image: url("img/noodle.jpg")
 }
+
+#firstfood{
+position:relative;
+  background-image: url("img/chicken.jpg");
+}
+
+#thirdfood{
+  position:relative;
+  background-image:url("img/ck.jpg");
+}
+
 h2{
   color:white;
   position:absolute;
   top:250px;
   text-align: center;
   width:100%;
+}
+
+.description{
+  margin: 100px;
+  background-color:white;
 }
